@@ -1,0 +1,100 @@
+ <div class="row   text-center">
+        <div class="col-md-8   col-12">
+          <div class="row">
+            <div class="col-md-4  offset-1 navo py-3 ">
+              <a href="#" onclick="bido()">CATEGORIES</a><i class="fas fa-align-justify mt-1" style="float: right;"></i>
+
+            </div>
+            <div class="col-md-1   col-xs-12 py-3 ">
+              <a href="#" class="navo">HOME</a>
+
+            </div>
+            <div class="col-md-1  col-xs-12  py-3 navo">
+              <a href="#">SHOP</a>
+
+            </div>
+            <div class="col-md-1.5  col-xs-12  py-3 navo">
+              <!-- <a href="#">WOMEN<i class="fas fa-sort-down"></i></a> -->
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Mega menu  </a>
+                <div class="dropdown-menu megamenu" role="menu">
+                  <div class="row g-3">
+                    <div class="col-lg-3 col-6">
+                      <div class="col-megamenu">
+                        <h6 class="title">Title Menu One</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                      </div>  <!-- col-megamenu.// -->
+                    </div><!-- end col-3 -->
+                    <div class="col-lg-3 col-6">
+                      <div class="col-megamenu">
+                        <h6 class="title">Title Menu Two</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                      </div>  <!-- col-megamenu.// -->
+                    </div><!-- end col-3 -->
+                    <div class="col-lg-3 col-6">
+                      <div class="col-megamenu">
+                        <h6 class="title">Title Menu Three</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                      </div>  <!-- col-megamenu.// -->
+                    </div>    
+                    <div class="col-lg-3 col-6">
+                      <div class="col-megamenu">
+                        <h6 class="title">Title Menu Four</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                      </div>  <!-- col-megamenu.// -->
+                    </div><!-- end col-3 -->
+                  </div><!-- end row --> 
+                </div> <!-- dropdown-mega-menu.// -->
+              </li>
+            </div>
+            <div class="col-md-1  col-xs-12  py-3 navo">
+              <a href="#">MEN<i class="fas fa-sort-down"></i></a>
+            </div>
+            <div class="col-md-1   col-xs-12  py-3 navo ">
+              <a href="#">SALES</a>
+            </div>
+            <div class="col-md-1.5   col-xs-12  py-3 navo">
+              <a href="#">PAGES<i class="fas fa-sort-down"></i></a>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="col-md-4 col-12"></div>
+
+
+
+
+
+
+
+      </div>

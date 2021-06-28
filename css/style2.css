@@ -1,0 +1,170 @@
+/* home and login */
+.homelogin{
+    box-shadow: 0 4px 2px -2px #eee;
+    padding-bottom: 8px;
+    padding-top: 6px;
+}
+.homeloginspan{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.loginspan{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative;;
+}
+
+
+.bd{
+    border-bottom: 1px solid #C3C4B6 ;
+    padding-bottom:10px ;
+}
+.loginspan::after{
+    content: "";
+    background-color:#90D300 ;
+    height: 2px;
+    width: 40px;
+    position: absolute;
+    bottom:-40%;
+    left:0%;
+}
+.labelremember{
+    color:#495057;
+    font-size: 16px;
+}
+.loginlogin{
+    color: #eee;
+    background-color:#81AE45 ;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    padding: 9px 20px;
+    
+}
+.loginfacebook{
+    color: #eee;
+    background-color:#41588A;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    padding: 9px 20px;
+    
+
+}
+/* suggested products */
+.suggested-products{
+    padding-top: 70px;
+   
+}
+
+.create-p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.p-indiv{
+    padding-top: 68px;
+    padding-bottom: 18px;
+}
+.suggestedspan{
+   color: #2E3340;
+   font-size: 24px;
+   font-weight: 650;
+   text-transform: uppercase;
+   position: relative;
+
+
+}
+
+
+.suggestedspan::after{
+    content: "";
+    background-color:#90D300 ;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom:-58%;
+    left:0%;
+}
+.hr-suggested{
+   background-color:#C3C4B6 ;
+   height: 1px;
+}
+.sugesstedimg{
+    border-radius: 10%;
+}
+.suggested-h6{
+    font-size: 14px;
+}
+.suggesetedspan2{
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.suggested-footer{
+    background-color: #EEF4F0;
+}
+.footerphone{
+    font-size: 13px;
+    color: #9E9A9D;  
+ }
+ .footerenvelope{
+    font-size: 13px;
+    color: #9E9A9D;   
+
+ }
+ .dodo:hover{
+   box-shadow:  0 4px 2px -2px #eee;
+
+ }
+ .dodo:hover .sugesstedimg{
+     opacity: 0.3;
+ }
+ /* create */
+ .crtbd{
+     border-bottom: 1px solid #9E9A9D;
+ }
+ .createspan::after{
+    content: "";
+    background-color: #90D300;
+    height: 2px;
+    width: 40px;
+    position: absolute;
+    bottom: -60%;
+    left: 0%;
+ }
+ .createspan{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative; 
+ }
+ /* input */
+ .input1{
+     display: inline-block;
+     width: 480px;
+ }
+ .label2{
+     position: absolute;
+     bottom: 50%;
+     left: 0;
+     text-transform: capitalize;
+     color:#4F4A4D ;
+     font-size: 15px;
+     font-weight: 600;
+ }
+ .input-position{
+     position: relative;
+ }
+ .margintop50{
+     margin-top: 50px !important;
+ }
+ .labelaccept{
+     text-transform: capitalize;
+     font-size: 13px;
+ }
+ .labelaccept span{
+     color:#90D300 ;
+ }

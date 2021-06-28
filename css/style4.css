@@ -1,0 +1,647 @@
+/* index8 */
+/* navbar */
+.img-categories-navbar{
+    border: 1px solid #D3DFC5; 
+    border-radius: 7px;
+    box-shadow:#D3DFC5 7px 7px 7px  7px;
+    height: 80%;
+    width: 70%;
+
+}
+.p-in-categories{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    color: #334652;
+}
+.link-in-products{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Categories-menu-custom{
+    background-color:#83AF48 !important;
+   
+}
+.childmenu-in-categories{
+    background-color: #fff;
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+/* curousel */
+.newproduct-slider{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+.collection-slider{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;  
+}
+.btn-shopnow-slider{
+    text-transform: uppercase;
+    background-color: #83AF48;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding:9px 10px ;
+    border: none;
+}
+.parent-pos-slider{
+    position: relative;
+}
+.child-pos-slider{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.slick-next{
+    right:20px;
+}
+.slick-prev{
+left:20px;
+}
+.slick-next , .slick-prev{
+  
+    background-color:#2D2E36;
+    color:#fff;
+    z-index: 22;
+    width:40px;
+    height: 40px;
+}
+.slick-next:hover , .slick-prev:hover,
+.slick-next:focus , .slick-prev:focus{
+    background-color:#83AF48;
+}
+.home-slick{
+   background-color:#2F3237;
+}
+.banner-slick img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.img-cuasualwear{
+    border-radius: 7px;
+    box-shadow:0px 4px 13px -8px rgb(0 0 0 / 90%); 
+}
+.causualwear-pos{
+    position: relative;
+}
+.casualwear-casualwear{
+    position: absolute;
+    top:40%;
+    left: 20%;
+    color: #fff;
+    font-size: 25px;
+    font-weight:700;
+
+}
+.casualwear-watchessunglassesshop{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    color: #fff;
+    font-size: 25px;
+    font-weight:700;
+}
+@media screen and(max-width:600px) {
+    .causualwear-pos{
+      margin-top: 7px;
+    }
+    
+}
+/* all product */
+.all-product{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color:#303237 ;
+    position: relative;
+
+}
+.all-product::after{
+   content: '';
+   background-color: #83AF48;
+   height: 2px;
+   width: 70px;
+   position: absolute;
+   bottom: -70%;
+   left:0%;
+
+}
+.link-in-allproductindex8{
+    text-transform: uppercase;
+
+   
+}
+.link-in-allproductindex8 ul li a{
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+   
+
+}
+.link-in-allproductindex8 ul{
+    font-size: 15px;
+    font-weight: 600;
+}
+/* all-input */
+.input-index8{
+    display: inline-block;
+     width: 100%;
+     border-radius: 10px;
+
+}
+.hr-index8{
+    margin-top: 3px;
+}
+.new-index8{
+    position: absolute;
+    top:0;
+    left: 5;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 13px;
+    background-color:#2F3239 ;
+    color: #fff;
+    padding: 5px 10px;
+}
+.sorted20-index8{
+    position: absolute;
+    top:7.5%;
+    left: 7%;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #83AF48;
+    color: #fff;
+    padding: 5px 11px;
+}
+.sorted20-index8-2{
+    position: absolute;
+    top:0;
+    left: 5;
+
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #83AF48;
+    color: #fff;
+    padding: 5px 11px; 
+}
+.heart-sortedby-index8{
+    font-size: 13px;
+    border:1px solid #83AF48;
+    padding: 5px;
+}
+.share-sortedby-index8{
+    font-size: 13px;
+    border:1px solid #83AF48;
+    padding: 5px;
+}
+.cart-sortedby-index8{
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #83AF48;
+    color: #fff;
+    border: 1px;
+}
+@media (min-width:600px) and (max-width:992px){
+    .sorted20-index8{
+       left: 3%;
+       top:3%;
+    }
+    
+}
+@media (max-width:600px) {
+    .sorted20-index8{
+       left: 3%;
+       top:3%;
+    }
+    
+}
+.btn-sortedby-index8{
+    visibility: hidden;
+    
+}
+.hover-sorted-index8:hover  .btn-sortedby-index8{
+    visibility: visible;
+}
+.quickview3{
+    color:#545659 ;
+    background-color:#FFFFFE ;
+    padding: 10px 12px;
+    position: absolute;
+    top: 30%;
+    left:30%;
+    z-index: 2;
+    font-size: 10px;
+    font-weight: bolder;
+    display: none;
+}
+.quickview3:hover{
+    color: #83AF48;
+    border:1px solid #83AF48;
+
+}
+.hover-sorted-index8:hover .quickview3{
+    display: block;
+}
+.hover-sorted-index8:hover  img{
+    opacity: 0.3;
+
+}
+/* last orders */
+
+.lastorders-index8{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+}
+.lastorders-index8::after{
+    content: '';
+    background-color: #83AF48;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    bottom: -72%;
+    left: 0;
+}
+/* reviews */
+
+.review-reviews-index8{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+}
+.review-reviews-index8::after{
+    content: '';
+    background-color: #83AF48;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    bottom: -72%;
+    left: 0;
+}
+.writereview-reviews-index8{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.emailaddress-reviews-index8{
+    text-transform:capitalize;
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-review-index8{
+    display:block;
+    width: 70%;
+}
+.yourrating-reviews-index8{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+.rating-reviews-index8{
+    color: #E2E2E2;
+    font-size: 13px;
+}
+.btn-reviewssubmit-index8{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #83AF48;
+    padding: 8px 10px;
+    border: none;
+}
+.user-custome-reviews{
+   font-size: 13px;
+}
+.clock-custome-reviews{
+    font-size: 13px;
+}
+.star22-custome-reviews{
+    font-size: 13px;
+    color:#FBB65F; 
+}
+
+
+
+.owl-theme{
+    position: relative;
+}
+
+.owl-dots {
+    position: absolute;
+    top: -10%;
+    right: 0%;
+}
+.rating-box {
+    display: inline-block;
+  }
+  .rating-box .rating-container {
+    direction: rtl !important;
+  }
+  .rating-box .rating-container label {
+    display: inline-block;
+    margin: 15px 0;
+    color: #d4d4d4;
+    cursor: pointer;
+    font-size: 30px;
+    transition: color 0.2s;
+  }
+  .rating-box .rating-container input {
+    display: none;
+  }
+  .rating-box .rating-container label:hover,
+  .rating-box .rating-container label:hover ~ label,
+  .rating-box .rating-container input:checked ~ label {
+    color: gold;
+  }
+  /* ::-webkit-input-placeholder {
+    text-align: center;
+ } */
+ #inputsearch::placeholder{
+    text-align: center;  
+
+ }
+ /* :-moz-placeholder { 
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ } */
+ .words-inreviews{
+     font-size: 13px;
+     text-transform: capitalize;
+ }
+ .p-in-reviews{
+     font-size: 15px;
+     font-weight: 300;
+ }
+ /* hot to deal */
+ .ads2-hotdeal-custom{
+     position: relative;
+     left: -10%;
+ }
+ /* about company */
+ .contuctus-aboutcompany-index8{
+     text-transform: uppercase;
+     font-size: 20px;
+     font-weight: 700;
+     position: relative;
+
+ }
+ .contuctus-aboutcompany-index8::after{
+    content: '';
+    background-color: #83AF48;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    bottom: -22%;
+    left: 0;
+ }
+ .label12-custom-index8{
+     position: absolute;
+     top:  3%;
+ }
+ .btn-about-company{
+     width: 100%;
+     text-transform: uppercase;
+     color: #fff;
+     background-color: #83AF48;
+     font-size: 15px;
+     font-weight: 600;
+     border: none;
+ }
+ .businesstype-aboutcompany{
+     text-transform: capitalize;
+     font-size: 13px;
+     font-weight: 700;
+
+     
+ }
+ .bd-nn{
+     border: none;
+ }
+ .card-body  p{
+     font-size: 15px;
+     font-weight: 400;
+
+    
+ }
+ /* product name index9 */
+ #product-view .slick-next {
+     right: 0;
+ }
+
+ #product-view .slick-prev {
+    left: 0;
+}
+.btn-custom-index9{
+    padding:5px 12px ;
+}
+.prdoctname-productname-index9{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.price-productname-index9{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 550;
+}
+.discount-productname-index9{
+    text-transform: uppercase;
+    font-size:14px ;
+    font-weight: 500;
+    color: #83AF48;
+}
+.review-productname-index9{
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.availability-productname-index9{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+}
+.instock-productname-index9{
+    font-weight: 400;
+}
+.brand-productname-index9{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600; 
+}
+.nike-productname-index9{
+    font-weight: 400; 
+}
+.spanprice-productname-index9{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    color:red;
+}
+.btnsize-custom-index9{
+    padding: 2px 5px;
+    font-size: 11px;
+    margin: 1px;
+   
+}
+.btn-productnameheart-index9{
+    font-size: 12px;
+    background-color: #83AF48;
+    color: #fff;
+}
+.p-incarttotal{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #83AF48;
+}
+.subtotal-in-carttotal{
+    text-transform: capitalize;
+    color: #83AF48;
+    font-size: 13px;
+    font-weight: 600;
+}
+.price-carttotal-index9{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+.btn-checkoutintotalcard-index9{
+    text-transform: uppercase;
+    padding: 3px 7px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    background-color: #83AF48;
+    margin: auto;
+}
+.cart-total{
+    background-color:#f5f599 ;
+    min-height: 220px;
+    padding-left: 20%;
+    
+   
+   box-shadow:#cff0a3 2px 2px 1px 1px ;
+  
+   
+}
+.img-table-index9{
+    width: 25%;
+}
+.custome-btntable-productname{
+    border-color: #7c7d7e;
+    color:#7c7d7e ;
+    border: solid 1px;
+    border-radius: 0;
+    
+}
+.wd-1-table{
+   max-width: 1%;
+}
+.price-table-index9{
+    text-transform: uppercase;
+    color:#545659;
+    font-size: 13px;
+    width: 30%;
+
+}
+.tr-custome-table-index9{
+    border-bottom: 1px solid #dee2e6;
+}
+/* related products index */
+
+.price-relatedproduct-inddex9{
+    text-transform: uppercase;
+    color: #334652;
+    font-size: 19px;
+    font-weight: 700;
+}
+.star-custom-relatedproducts-inex9{
+    color: gold;
+}
+.productname-relatedproducts-index9{
+    text-transform: capitalize;
+    color: #334652;
+    font-size: 15px;
+    font-weight: 600;
+}
+.dis-relatedproducts-index9{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    color: #83AF48;
+}
+.newcustom-relatedproducts-index9{
+    left: 5%;
+}
+.custom20-relatedproducts-index9{
+    left:5%;
+}
+.custome20-2-relatedproducts-index9{
+    left: 5%;
+    top:6%
+}
+@media (min-width:600px) and (max-width:992px){
+    .newcustom-relatedproducts-index9{
+        left:3%;
+    }
+}
+@media (min-width:600px) and (max-width:992px) {
+    .custom20-relatedproducts-index9{
+        left: 3%;
+    }
+    
+}
+@media (min-width:600px) and (max-width:992px) {
+    .custom20-2-relatedproducts-index9{
+        left: 0%;
+        top:0;
+    }
+    
+}
+/* tabs */
+.nav-tabs{
+    border:none !important;
+}
+ .nav-tabs .nav-link{
+    border:none !important;
+}
+
+.tab-headline-custom .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000;
+    border:none ;
+    border-bottom: 1px solid #83AF48 !important;
+}
+
+
+.tab-headline-custom a{
+    border:none !important;
+    color: #83AF48;
+    font-size: 16px;
+    padding: 5px 15px;
+   
+    text-transform: uppercase;
+}
